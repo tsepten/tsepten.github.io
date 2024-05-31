@@ -4,6 +4,12 @@ layout: default
 
 # Real Analysis - Riemann Integration
 
+```
+int main () {
+    return 0;
+}
+```
+
 Partitions of an Interval
 =========================
 
@@ -36,7 +42,7 @@ Definition
 ----------
 
 A **Riemann sum** of $f$ for the partition $P$ is given by
-$$S(P, f) = \sum_{i=1}^{n} f(t_i) (x_i - x_{i-1}),$$ where
+$S(P, f) = \sum_{i=1}^{n} f(t_i) (x_i - x_{i-1})$, where
 $t_i \in [x_{i-1}, x_i]$ is a point chosen within each subinterval.
 
 Riemann Integrable Functions
@@ -52,7 +58,8 @@ A function $f$ defined on $[a, b]$ is **Riemann integrable** if for
 every $\epsilon > 0$, there exists a $\delta > 0$ such that for any
 partition $P$ of $[a, b]$ with $\|P\| < \delta$, and for any choice of
 points $t_i \in [x_{i-1}, x_i]$,
-$$\left| S(P, f) - I \right| < \epsilon,$$ where $I$ is the value of the
+
+$\left| S(P, f) - I \right| < \epsilon$, where $I$ is the value of the
 integral.
 
 Riemann Integral
