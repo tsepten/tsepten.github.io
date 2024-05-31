@@ -1,0 +1,39 @@
+/* assets/css/custom.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  p {
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  code, pre {
+    background: #f8f8f8;
+    padding: 2px 4px;
+    border-radius: 4px;
+  }
+  
+  .page__footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  

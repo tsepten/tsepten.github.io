@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Math Notes
+title: "Math Notes"
+permalink: /notes/
 ---
 
 # Math Notes

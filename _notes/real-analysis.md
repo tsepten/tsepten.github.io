@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Real Analysis
+title: "Real Analysis"
+permanlinks: /notes/real-analysis/
 ---
 
 # Real Analysis
@@ -40,7 +41,7 @@ f'(a) = \lim_{{h \to 0}} \frac{f(a + h) - f(a)}{h}
 
 # Math of Data Science Test
 
-**Homework 3**\
+**Homework 3**
 
 1.  Download the dataset `genomedata.mat` from Canvas; it contains
     Single Nucleid Polymorphism data from the Human Genome Diversity
