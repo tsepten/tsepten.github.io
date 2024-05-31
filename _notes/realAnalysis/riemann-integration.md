@@ -2,9 +2,7 @@
 layout: default
 ---
 
-# Real Analysis
-
-## Riemann Integration
+# Real Analysis - Riemann Integration
 
 Partitions of an Interval
 =========================
@@ -89,6 +87,3 @@ Comparison
 If $f$ and $g$ are Riemann integrable on $[a, b]$ and $f(x) \leq g(x)$
 for all $x \in [a, b]$, then
 $$\int_a^b f(x) \, dx \leq \int_a^b g(x) \, dx.$$
-
-
-## X

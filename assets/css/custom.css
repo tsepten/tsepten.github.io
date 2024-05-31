@@ -1,29 +1,21 @@
-/* assets/css/custom.css */
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
+/* Ensure headers are left-aligned */
+h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
-    text-align: center;
+    text-align: left;  /* Change this to left */
+    margin-top: 1.5em;
+    margin-bottom: 1em;
   }
   
+  /* Ensure paragraphs and other text are styled correctly */
   p {
     line-height: 1.6;
     text-align: justify;
+    margin: 1em 0;
   }
   
-  ul {
-    padding-left: 20px;
+  ul, ol {
+    padding-left: 1.5em;
+    margin: 1em 0;
   }
   
   code, pre {
@@ -32,8 +24,13 @@ body {
     border-radius: 4px;
   }
   
-  .page__footer {
-    text-align: center;
-    margin-top: 20px;
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .wrapper {
+    padding: 20px;
   }
   

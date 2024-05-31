@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-This is a test.
+This is a site under construction. For now, it will contain math notes.
